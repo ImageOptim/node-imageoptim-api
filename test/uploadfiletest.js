@@ -40,7 +40,6 @@ describe('ImageOptim API', function() {
         return im.compress({})
             .file(sourceImagePath)
             .then(function(buf) {
-                fs.writeFileSync('/tmp/jo.jpg', buf);
                 fs.statSync(sourceImagePath);
                 assertIsJPEGBuffer(buf);
             });
