@@ -1,6 +1,6 @@
 {
   "name": "imageoptim-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A minimal client for ImageOptim's JPEG compression HTTP API",
   "main": "index.js",
   "scripts": {
@@ -19,9 +19,9 @@
   "license": "BSD-2-Clause",
   "dependencies": {
     "denodeify": "^1.2.1",
-    "superagent": "^1.7.2"
+    "superagent": "^3.2.0"
   },
   "devDependencies": {
-    "mocha": "^2.4.5"
+    "mocha": "^2.5.3"
   }
 }
