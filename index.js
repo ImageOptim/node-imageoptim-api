@@ -9,7 +9,7 @@ function ImageOptim() {
     if ('undefined' === typeof Promise) {
         throw Error("ES6 Promise support required.\nPlease use a modern version of nodejs or a polyfill");
     }
-    this._baseURL = 'https://imageoptim.com/mozjpeg/';
+    this._baseURL = 'https://imageoptim.com/mozjpeg';
 }
 
 ImageOptim.prototype.compress = function(options) {
